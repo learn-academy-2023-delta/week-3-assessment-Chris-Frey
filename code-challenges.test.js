@@ -34,8 +34,7 @@ const fibIt = (num) => {
   }
   return arr
 }
-fibIt(fibLength1)
-fibIt(fibLength2)
+
 // Pseudo code:
 // create arrow function with one parameter
 // define variable with array containing [1, 1] because those are always in the fib array
@@ -80,8 +79,7 @@ const studyMinutesWeek2 = {
 const sortIt = (input) => {
  return Object.values(input).sort((a, b) => (a-b))
 }
-sortIt(studyMinutesWeek1)
-sortIt(studyMinutesWeek2)
+
 // Pseudo code:
 // create arrow function with one input
 // invoke Object.values() on the input
@@ -112,16 +110,11 @@ const sumIt = (input) => {
   let arr = []
   arr.push(input[0])
   for(let i = 1; i < input.length ; i++) {
-    console.log(arr);
     arr.push(input[i] + arr[i - 1])
   }
   
   return arr
 }
-
-  sumIt(accountTransactions1)
-  sumIt(accountTransactions2)
-  sumIt(accountTransactions3)
 // Pseudo code: 
 // create arrow function with 1 parameter
 // create a for loop
